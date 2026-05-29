@@ -5,7 +5,9 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
+
 public class driverTest{
+@Opmode
   public static main void{
   if(gamepad1.left_stick_x > 0){
   telemetry.adddata("Left stick x is" + gamepad1.left_stick_x)
