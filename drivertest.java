@@ -17,5 +17,6 @@ public class driverTest{
   }else{
     telemetry.adddata("You are net moving it up or down")
       }
+    telemetry.update();
 }
 }
